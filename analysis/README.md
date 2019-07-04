@@ -84,6 +84,15 @@ java -cp target/language-entities-1.0-jar-with-dependencies.jar \
     "The quick brown fox jumped over the lazy dog."
 ```
 
+Analyze sentiment for a file
+```
+java -cp target/language-entities-1.0-jar-with-dependencies.jar \
+    com.google.cloud.language.samples.Analyze \
+    sentiment \
+    /home/paresh_sanghani/github/gcp/reviews/bladerunner-neutral.txt
+```
+<img src ="images/analyze_sentiment.PNG"/>
+
 Analyze entity sentiment
 ```
 java -cp target/language-entities-1.0-jar-with-dependencies.jar \
