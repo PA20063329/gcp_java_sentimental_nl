@@ -75,6 +75,7 @@ java -cp target/language-entities-1.0-jar-with-dependencies.jar \
     entities \
     "The quick brown fox jumped over the lazy dog."
 ```
+<img src ="images/analyze_entities.PNG"/>
 
 Analyze sentiment
 ```
@@ -83,6 +84,7 @@ java -cp target/language-entities-1.0-jar-with-dependencies.jar \
     sentiment \
     "The quick brown fox jumped over the lazy dog."
 ```
+<img src ="images/analyze_sentiment.PNG"/>
 
 Analyze sentiment for a file
 ```
@@ -91,7 +93,7 @@ java -cp target/language-entities-1.0-jar-with-dependencies.jar \
     sentiment \
     /home/paresh_sanghani/github/gcp/reviews/bladerunner-neutral.txt
 ```
-<img src ="images/analyze_sentiment.PNG"/>
+<img src ="images/analyze_sentiment_file.PNG"/>
 
 Analyze entity sentiment
 ```
@@ -99,6 +101,7 @@ java -cp target/language-entities-1.0-jar-with-dependencies.jar \
   com.google.cloud.language.samples.Analyze entities-sentiment \
   "There's nothing better than searching for ice cream on Google."
 ```
+<img src ="images/analyze_entity_sentiment.PNG"/>
 
 Analyze syntax
 ```
@@ -114,6 +117,7 @@ java -cp target/language-entities-1.0-jar-with-dependencies.jar \
   com.google.cloud.language.samples.Analyze classify \
   "Android is a mobile operating system developed by Google, based on the Linux kernel and designed primarily for touchscreen mobile devices such as smartphones and tablets."
 ```
+<img src ="images/analyze_categories.PNG"/>
 
 Analyze categories in GCS file
 ```
